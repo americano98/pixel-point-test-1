@@ -1,10 +1,11 @@
-import Link from 'components/shared/link';
+import News from 'components/pages/home/news';
+import SeeDemo from 'components/pages/home/see-demo';
 
 const Home = () => (
-  <div>
-    <h1>Pixel Point Next.js Tailwind Starter</h1>
-    <Link to="about">About</Link>
-  </div>
+  <main className="py-60 lg:py-36 sm:py-28">
+    <News />
+    <SeeDemo />
+  </main>
 );
 
 export default Home;

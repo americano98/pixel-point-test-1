@@ -1,0 +1,6 @@
+@layer base {
+  .border-linear {
+    @apply relative flex w-full flex-col justify-between gap-8 overflow-hidden rounded-md px-7 pt-7
+    before:absolute before:left-[1px] before:top-[1px] before:block before:h-[calc(100%_-_2px)] before:w-[calc(100%_-_2px)] before:rounded-md before:bg-black;
+  }
+}

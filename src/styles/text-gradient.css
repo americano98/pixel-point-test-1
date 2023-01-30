@@ -1,0 +1,20 @@
+@layer base {
+  .text-gradient-1 {
+    background: linear-gradient(263.39deg, #ffffff 0%, #ffffff 84.7%, #ffe8ff 100%);
+  }
+  .text-gradient-2 {
+    background: linear-gradient(
+      258.26deg,
+      #e0d0f8 24.77%,
+      #ffffff 45.94%,
+      #ffffff 75.5%,
+      #a08ece 98.09%
+    );
+  }
+  .text-gradient-3 {
+    background: linear-gradient(263.39deg, #fdfdfd 0%, #ffffff 47.94%, #d6c8d0 100%);
+  }
+  .text-gradient-4 {
+    background: linear-gradient(256.34deg, #ffffff 72.38%, #bc9acb 95.73%);
+  }
+}

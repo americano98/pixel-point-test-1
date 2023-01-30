@@ -6,6 +6,7 @@
 @import './fonts.css';
 @import './global.css';
 @import './grid-gap.css';
+@import './text-gradient.css';
 
 /* Components */
 @import './container.css';
@@ -14,3 +15,5 @@
 @import './remove-autocomplete-styles.css';
 @import './safe-paddings.css';
 @import './scrollbar-hidden.css';
+@import './text-shadow.css';
+@import './border-linear.css';
